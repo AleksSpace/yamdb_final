@@ -65,7 +65,6 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        # ключ надо вставлять полностью
         key: ${{ secrets.SSH_KEY }}
         script: |
           sudo docker-compose stop

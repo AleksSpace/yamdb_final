@@ -9,10 +9,10 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import AccessToken
-from reviews.models import Category, Genre, Review, Title
-from users.models import User
 
 from api_yamdb.settings import DEFAULT_FROM_EMAIL
+from reviews.models import Category, Genre, Review, Title
+from users.models import User
 
 from .filters import TitleFilter
 from .permission import (IsAdmin, IsAdmiOrReadOnly,
@@ -43,6 +43,7 @@ class UserViewSet(viewsets.ModelViewSet):
             serializer.save()
             return Response(data=serializer.data,
                             status=status.HTTP_200_OK)
+        return Response(status=status.HTTP_403_FORBIDDEN)
 
 
 class SignUp(APIView):

@@ -9,11 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    build:
-      context: ../api_yamdb/
-      dockerfile: Dockerfile
-      args:
-        buildno: 1
+    image: alex1994zaikin/yamdb_final
     restart: always
     volumes:
       - static_value:/app/static/

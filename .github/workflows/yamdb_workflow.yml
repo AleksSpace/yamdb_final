@@ -27,8 +27,7 @@ jobs:
         pip install -r ./api_yamdb/requirements.txt 
 
     - name: Lint with flake8
-      run: |
-        isort .
+      run:
         flake8 .
     - name: Run pytest
       run: pytest

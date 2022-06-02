@@ -31,7 +31,9 @@
 
 Клонирование проекта:
 ```
-git clone https://github.com/AleksSpace/yamdb_final.git
+HTTPS - git clone https://github.com/AleksSpace/yamdb_final.git
+SSH - git clone git@github.com:AleksSpace/yamdb_final.git
+GitHub CLI - git clone gh repo clone AleksSpace/yamdb_final
 ```
 Для добавления файла .env с настройками базы данных на сервер необходимо:
 

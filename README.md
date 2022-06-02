@@ -60,7 +60,7 @@ git clone https://github.com/AleksSpace/yamdb_final.git
     ```
 
 * Добавить настройки в файл .env:
-    ```
+
     Пример добавляемых настроек:
     ```
     DB_ENGINE=django.db.backends.postgresql

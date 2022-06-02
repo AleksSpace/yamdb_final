@@ -119,5 +119,6 @@ git push
 * http://smyamdbfinal.students.nomoredomains.icu/api/v1/titles/{title_id}/reviews/{review_id}/
 * http://smyamdbfinal.students.nomoredomains.icu/api/v1/titles/{title_id}/reviews/{review_id}/comments/
 
-
-Адрес для проверки проекта: http://yamdb-final.hopto.org/admin
+***
+### Об авторе
+- [Заикин Алексей](https://github.com/AleksSpace "GitHub аккаунт")
